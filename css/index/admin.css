@@ -1,0 +1,43 @@
+.menu-list{
+    position: relative;
+    font-family: "Gotham";
+    font-size: 0.9em;
+    color: rgb(190, 190, 190);
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.menu-list:hover{
+    color: #fff;
+}
+
+.menu-list i {
+    position: absolute;
+    right: 0;
+}
+
+.max-width-30{
+    max-width: 30%;
+}
+
+.menu-option{
+    padding: 10px;
+    background-color: rgb(32, 32, 32);
+    color: #fff;
+    font-family: "Gotham";
+    position: relative;
+    padding: 10px;
+}
+
+.menu-option i{
+    position: absolute;
+    right: 5px;
+}
+
+.menu-option.green{
+    color: rgb(58, 179, 42);
+}
+
+.menu-option.green i{
+    color: rgb(58, 179, 42);
+}

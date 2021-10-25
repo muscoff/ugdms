@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="script-src 'self'"> -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/uicons/css/uicons-regular-rounded.css">
+    <link rel="stylesheet" href="../css/css/all.css">
+    <title>Document Management System</title>
+  </head>
+  <body class="ug-bg">
+    <div class="">
+        <div class="padding-all-20"></div>
+        <div class="width-100">
+            <div class="font-gotham uppercase font-1-5-em white-text center-text"><i class="fi fi-rr-document"></i> Upload Document</div><br>
+            <div class="width-80 width-l-70 margin-auto">
+                <form>
+                    <div class="width-90 margin-auto">
+                        <input type="hidden" id="path" value="/doc">
+                        <input type="hidden" id="creator">
+                        <div>
+                            <label class="font-gotham white-text">Course Name</label>
+                            <input type="text" placeholder="Course Name" id="name" required />
+                        </div><br>
+                        <div>
+                            <label class="font-gotham white-text">Exams Centre</label>
+                            <input type="text" id="centre" placeholder="Exams Centre" required />
+                        </div><br>
+                        <div>
+                            <label class="font-gotham white-text">Date of Exams</label>
+                            <input type="date" id="date" placeholder="Date of Exams" required />
+                        </div><br>
+                        <div>
+                            <label class="font-gotham white-text">Select Semester</label>
+                            <select required>
+                                <option value="first">First Semester</option>
+                                <option value="second">Second Semester</option>
+                            </select>
+                        </div><br>
+                        <div>
+                            <label class="font-gotham white-text">Attach Document</label>
+                            <input type="file" class="input" required />
+                        </div><br>
+                        <input type="hidden" id="office">
+                        <input type="hidden" id="parent">
+                        <div id="error" class="font-gotham white-text font-12"></div><br><br>
+                        <button class="blue-bg white-text"><i class="fi fi-rr-upload"></i> Upload Document</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="width-100 height-10"></div>
+    </div>
+  </body>
+</html>

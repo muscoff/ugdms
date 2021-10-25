@@ -1,0 +1,180 @@
+.title{
+    font-size: 3em;
+}
+
+.sub-title{
+    font-size: 1.3em;
+}
+
+img.moveup{
+    position: absolute;
+    bottom: 0;
+    left: 18%;
+    width: 200px;
+}
+
+.off-white{
+    /* background-color: #fafafa; */
+    background-color: #ffffff;
+    border-radius: 0.3em;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+    font-size: 1.3em;
+}
+
+.icon, .buttons{
+    position: fixed;
+    width: 10vw;
+    height: 10vh;
+    right: 8%;
+    bottom: 10%;
+    font-size: 2em;
+}
+
+.buttons{
+    height: 20vh;
+    bottom:20%;
+    transition: all 1s ease-in-out;
+}
+
+.move{
+    bottom: -100%;
+    transition: all 1s ease-in-out;
+}
+
+.moveup{
+    bottom: 0;
+    transition: all 1s ease-in-out;
+}
+
+.account{
+    box-shadow: 0px 2px 3px black;
+}
+
+form input[type=text], form input[type=password], form input[type=email]{
+    width: 100%;
+    padding: 10px 15px;
+    background: transparent;
+    border: 1px solid #ccc;
+}
+
+form input[type=text]:focus, form input[type=password]:focus, form input[type=email]{
+    background: transparent;
+}
+
+form input[type=submit]{
+    width: 100%;
+    font-family: "AllerRg";
+    color: #fff;
+}
+
+form input[type=submit]:hover{
+    transform: none;
+}
+
+form input[type=submit]:active{
+    transform: scale(0.95);
+}
+
+.font{
+    font-size: 2em;
+}
+
+@media(max-width: 420px){
+    .title{
+        font-size: 1.5em;
+    }
+
+    .sub-title{
+        font-size: 1em;
+    }
+
+    .font{
+        font-size: 1.4em;
+    }
+
+    .icon, .buttons{
+        right: 2%;
+        font-size: 1.8em;
+    }
+
+    img.moveup{
+        top: 15%;
+        left: 0%;
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 620px) and (min-width: 421px){
+    .title{
+        font-size: 1.6em;
+    }
+
+    .sub-title{
+        font-size: 1.3em;
+    }
+
+    .font{
+        font-size: 1.4em;
+    }
+
+    .icon, .buttons{
+        right: 2%;
+        font-size: 1.8em;
+    }
+
+    img.moveup{
+        top: 15%;
+        left: 0%;
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 820px) and (min-width: 621px){
+    .title{
+        font-size: 1.6em;
+    }
+
+    .sub-title{
+        font-size: 1.3em;
+    }
+
+    .font{
+        font-size: 1.4em;
+    }
+
+    .icon, .buttons{
+        right: 2%;
+        font-size: 1.8em;
+    }
+
+    img.moveup{
+        top: 17%;
+        left: 20%;
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 1120px) and (min-width: 821px){
+    .title{
+        font-size: 2.5em;
+    }
+
+    .sub-title{
+        font-size: 1.3em;
+    }
+
+    .font{
+        font-size: 1.4em;
+    }
+
+    .icon, .buttons{
+        right: 2%;
+        font-size: 1.8em;
+    }
+
+    img.moveup{
+        top: 17%;
+        left: 14%;
+        width: 150px;
+    }
+}

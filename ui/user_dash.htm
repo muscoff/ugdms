@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="script-src 'self'">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/uicons/css/uicons-regular-rounded.css">
+    <title>Document Management System</title>
+  </head>
+  <body class="ug-bg">
+    <div class="width-100 min-height-30 flex-column justify-content-center white-bg">
+        <div class="padding-all-10"></div>
+        <div class="display-none">
+        <img src="../images/logo.png" class="small-logo" alt="">
+        </div>
+        <div class="left-text font-gotham bold-text font-30 ug-color uppercase padding-all-10">
+            document management system
+        </div>
+        <div class="right-text padding-all-10 ug-color font-l-12 font-gothic">
+            Welcome to your dashboard <br> <span id="fullname"></span>
+        </div>
+    </div>
+    <div>
+        <div class="padding-all-20"></div>
+        <div class="width-90 margin-auto">
+            <div class="acc-btn-holder1">
+                <div class="col-3 col-l-4 col-m-6 col-s-12 padding-all-10">
+                    <button id="upload-doc" class="adminBtn"><i class="fi fi-rr-cloud-upload"></i> Manage Document</button>
+                </div>
+                <div class="col-3 col-l-4 col-m-6 col-s-12 padding-all-10">
+                    <button id="reset" class="adminBtn"><i class="fi fi-rr-settings"></i> Reset Password</button>
+                </div>
+            </div>
+        </div>
+        <div class="padding-all-20"></div>
+    </div>
+  </body>
+</html>

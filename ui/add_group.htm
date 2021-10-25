@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="script-src 'self'"> -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/uicons/css/uicons-regular-rounded.css">
+    <link rel="stylesheet" href="../css/css/all.css">
+    <title>Document Management System</title>
+  </head>
+  <body class="ug-bg">
+    <div class="flex-column justify-content-center align-items-center width-100 height-100">
+        <div>
+            <div class="font-gotham uppercase font-1-5-em white-text center-text"><i class="fas fa-users-cog"></i> Create Group</div><br>
+            <form>
+                <div class="width-90 margin-auto">
+                    <input type="hidden" id="creator">
+                    <label for="" class="white-text font-gotham">Group Name</label>
+                    <input type="text" placeholder="Group Name" id="group-name" /><br><br>
+                    <div>
+                        <fieldset class="padding-all-10 white-text">
+                            <legend class="font-gotham margin-bottom-3">Set Permissions</legend>
+                            <div class="row padding-all-5">
+                                <div class="col-6 padding-all-5">
+                                    <span class="margin-right-5 font-gotham">View</span> <input type="checkbox" id="view">
+                                </div>
+                                <div class="col-6 padding-all-5">
+                                    <span class="margin-right-5 font-gotham">Upload</span> <input type="checkbox" id="upload">
+                                </div>
+                                <div class="col-6 padding-all-5">
+                                    <span class="margin-right-5 font-gotham">Download</span> <input type="checkbox" id="download">
+                                </div>
+                                <div class="col-6 padding-all-5">
+                                    <span class="margin-right-5 font-gotham">Delete</span> <input type="checkbox" id="delete">
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div id="error" class="font-gotham white-text font-12"></div><br><br>
+                    <button class="blue-bg white-text"><i class="fas fa-users-cog"></i> Create Group</button>
+                </div>
+            </form>
+        </div>
+    </div>
+  </body>
+</html>

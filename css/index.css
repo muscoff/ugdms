@@ -1,0 +1,255 @@
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+}
+.media-show{
+    display: none;
+}
+
+.max-img img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.try, .ecommerce{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    color: white;
+    font-family: "AllerRg";
+    border: 1px solid white;
+    transition: all 0.5s ease-in-out;
+}
+
+.ecommerce{
+    color: black;
+}
+
+.ecommerce i, .try i{
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: all 0.5s ease-in-out;
+}
+
+.ecommerce span, .try span{
+    transition: all 0.5s ease-in-out;
+}
+
+.try div{
+    bottom: -100%;
+    transition: all 0.5s ease-in-out;
+}
+
+.ecommerce div{
+    left: -100%;
+    transition: all 0.5s ease-in-out;    
+}
+
+.try:active, .ecommerce:active{
+    transform: scale(0.90);
+}
+
+.try:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.ecommerce:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.try:hover div{
+    bottom: 0%;
+}
+
+.ecommerce:hover div{
+    left: 0%;
+}
+
+.ecommerce:hover span, .try:hover span{
+    transform: translateX(-5%);
+}
+
+.ecommerce:hover i, .try:hover i{
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+.blob, .blob1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+	border-radius: 50px;
+    /* background-color: rgb(227, 38, 60); */
+    cursor: pointer;
+
+	box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+	transform: scale(1);
+}
+
+.blob{
+    animation: pulse 2s infinite;
+}
+
+.blob1{
+    animation: alpha 2s infinite;
+}
+
+.blob:active{
+    background-color: rgb(81, 132, 243);
+}
+
+form input[type=text].style, form input[type=password].style{
+    border: 1px solid #ccc;
+}
+
+form input[type=text], form input[type=email], form input[type=password]{
+    background-color: transparent;
+}
+
+form input[type=email].border, form input[type=password].border{
+    border: 1px solid #ccc;
+}
+
+form input[type=email], form input[type=password]{
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+}
+
+form input[type=text]:focus, form input[type=email]:focus, form input[type=password]:focus{
+    background-color: #fff;
+    border: none;
+}
+
+#register:hover{
+    background-color: rgb(231, 68, 87);
+    box-shadow: 0px 2px 5px rgba(231, 68, 87,0.5);
+}
+
+#login:hover{
+    background-color: rgb(63, 133, 238);
+    box-shadow: 0px 2px 5px rgba(63, 133, 238,0.5);
+}
+
+#side-menu{
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.4);
+    font-family: "AllerRg";
+    z-index: 2000;
+    background-color: #fff;
+    overflow: auto;
+    transition: all 80ms ease-in-out;
+}
+
+.underline{
+    border-bottom: 2px solid #ccc;
+}
+
+a.deep-blue-hover:hover div{
+    background-color: #0a1d3a;
+    color: white;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(227, 38, 60, 0.7);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(227, 38, 60, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(227, 38, 60, 0);
+	}
+}
+
+@keyframes alpha {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 10px rgba(92, 174, 250, 0.7);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(92, 174, 250, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 10px rgba(92, 174, 250, 0);
+	}
+}
+
+@media(max-width: 420px){
+    .media-none{
+        display: none;
+    }
+
+    .media-show{
+        display: block;
+    }
+
+    /* img.img{
+        width: 48px;
+    } */
+}
+
+@media screen and (max-width: 620px) and (min-width: 421px){
+    .media-none{
+        display: none;
+    }
+
+    .media-show{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 820px) and (min-width: 621px){
+    .media-none{
+        display: none;
+    }
+
+    .media-show{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1120px) and (min-width: 821px){
+    .title{
+        font-size: 2.5em;
+    }
+
+    .sub-title{
+        font-size: 1.3em;
+    }
+
+    .font{
+        font-size: 1.4em;
+    }
+
+    .icon, .buttons{
+        right: 2%;
+        font-size: 1.8em;
+    }
+
+    img.moveup{
+        top: 17%;
+        left: 14%;
+        width: 150px;
+    }
+}

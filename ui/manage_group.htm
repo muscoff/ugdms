@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="script-src 'self'"> -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/uicons/css/uicons-regular-rounded.css">
+    <link rel="stylesheet" href="../css/css/all.css">
+    <title>Document Management System</title>
+  </head>
+  <body class="ug-bg">
+    <div class="width-100 height-10"></div>
+    <div class="width-80 height-80 width-l-90 margin-auto white-bg padding-all-10">
+        <div class="center-text font-gotham uppercase font-30 bold-text">Manage Group</div><br>
+        
+        <div class="row">
+            <div class="col-5">
+                <div data-id="" data-admin="" id="account"></div>
+                <div class="select width-100 ug-bg">
+                    <div class="width-100 flex-row align-items-center">
+                        <div><i class="fas fa-check-circle nocopy-color"></i></div>
+                        <div id="group-name" class="font-gotham white-text truncate margin-left-10"></div>
+                    </div>
+                    <div id="display-admin" class="display-none">
+                        <div class="green-text font-14 truncate margin-top-5">
+                            <i class="fas fa-lock"></i> <span class="margin-left-5 admin-name white-text font-helvetica"></span>
+                        </div>
+                    </div>
+                </div><br>
+                <div class="padding-all-10 ug-bg">
+                    <fieldset class="padding-all-10 white-text">
+                        <legend class="font-gotham margin-bottom-3">Group Permissions</legend>
+                        <div class="row padding-all-5">
+                            <div class="col-6 padding-all-5">
+                                <span class="margin-right-5 font-gotham">View</span> <input type="checkbox" id="view">
+                            </div>
+                            <div class="col-6 padding-all-5">
+                                <span class="margin-right-5 font-gotham">Upload</span> <input type="checkbox" id="upload">
+                            </div>
+                            <div class="col-6 padding-all-5">
+                                <span class="margin-right-5 font-gotham">Download</span> <input type="checkbox" id="download">
+                            </div>
+                            <div class="col-6 padding-all-5">
+                                <span class="margin-right-5 font-gotham">Delete</span> <input type="checkbox" id="delete">
+                            </div>
+                        </div>
+                    </fieldset>
+                </div><br>
+                <div>
+                    <label class="font-gotham">Filter Users by Office</label>
+                    <select name="" id="office"></select>
+                </div>
+            </div>
+            <div class="col-2"></div>
+            <div class="col-5">
+                <div class="select width-100 flex-row align-items-center ug-bg">
+                    <div><i class="fas fa-check-circle nocopy-color"></i></div>
+                    <div class="font-gotham white-text truncate margin-left-10" id="users">Select Users</div>
+                </div>
+                <div class="width-100 max-height-60 ug-bg" id="users-list"></div><br><br>
+                <div id="set-account" class="display-none">
+                    <button id="submit" class="font-gotham adminBtn">Set Account</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="width-100 height-10"></div>
+  </body>
+</html>

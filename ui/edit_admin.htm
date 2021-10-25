@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="script-src 'self'">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <title>Document Management System</title>
+  </head>
+  <body class="ug-bg">
+    <div class="width-100 height-50 flex-column justify-content-center align-items-center white-bg">
+        <div class="display-none">
+        <div class="flex-column justify-content-center align-items-center">
+            <img src="../images/logo.png" class="logo" alt="">
+        </div>
+        </div>
+        <div class="font-gotham center-text uppercase ug-color bold-text font-30">Document Management System</div>
+    </div>
+    <div class="ug-bg white-text">
+        <div class="padding-all-20"></div>
+        <div class="center-text font-text font-30 font-gotham">Edit Admin Account</div>
+        <div class="padding-all-20"></div>
+        <div class="width-30 width-l-50 width-m-70 width-s-90 margin-auto">
+            <form class="userAccountForm">
+                <input type="hidden" id="id">
+                <div>
+                    <label class="font-gotham">Fullname</label>
+                    <input type="text" id="fullname" placeholder="Enter Full name..">
+                </div><br>
+                <div>
+                    <label class="font-gotham">Password</label>
+                    <input type="password" placeholder="Enter password">
+                </div><br>
+                <div>
+                    <label class="font-gotham">Confirm Password</label>
+                    <input type="password" placeholder="Confirm password">
+                </div><br>
+                <div id="error" class="font-gotham red-text padding-all-5"></div><br>
+                <div>
+                    <button type="submit" class="adminBtn">Edit Admin Account</button>
+                </div>
+            </form>
+        </div>
+        <div class="padding-all-20"></div>
+        <div class="padding-all-20"></div>
+    </div>
+  </body>
+</html>

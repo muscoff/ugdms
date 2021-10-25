@@ -1,0 +1,37 @@
+#menuBg, .closeBg{
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    transition: all 80ms ease-in-out;
+}
+
+#menuBg{
+    animation: menuBg 0.3s forwards;
+}
+
+.closeBg{
+    animation: closeBg 0.3s forwards;
+}
+
+@keyframes menuBg{
+    0%{width: 50vw; opacity: 0;}
+    100%{width: 100vw; opacity: 1;}
+}
+
+@keyframes closeBg{
+    0%{width: 100vw; opacity: 1;}
+    100%{width: 50vw; opacity: 0;}
+}
+
+#sideMenu{
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    font-family: "AllerRg";
+    z-index: 2000;
+    background-color: #fff;
+    overflow: auto;
+    transition: all 80ms ease-in-out;
+}

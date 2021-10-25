@@ -1,0 +1,82 @@
+.info-item{
+    position: relative;
+    color: rgb(134, 134, 134);
+    font-family: "Helvetica";
+    border-bottom: 0.5px solid rgb(83, 83, 83);
+    padding: 8px;
+}
+
+.info-item i{
+    color: rgb(194, 194, 194);
+    position: absolute;
+    right: 3%;
+}
+
+.info-item:hover i{
+    display: none;
+}
+
+.info-item:hover{
+    cursor: not-allowed;
+}
+
+.input-label{
+    color: #fff;
+    font-family: "Helvetica";
+}
+
+form.inputForm input[type=email], form.inputForm input[type=password]{
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    background-color: rgb(66, 66, 66);
+    border-radius: 2px;
+}
+
+form.inputForm input[type=email]:focus, form.inputForm input[type=password]:focus{
+    box-shadow: 0px 0px 12px rgb(47, 78, 128);
+}
+
+form.inputForm button[type=submit]{
+    padding: 15px 25px;
+    background-color: rgb(213, 167, 112);
+    color: #fff;
+}
+
+form.inputForm button[type=submit]:hover{
+    background-color: #fff;
+    color: black;
+}
+
+a.link{
+    color: rgb(213, 167, 112);
+    font-family: "Helvetica";
+}
+
+a.link:hover{
+    color: rgb(62, 92, 139);
+}
+
+@media(max-width: 420px){
+    .m-hide{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 620px) and (min-width: 421px){
+    .m-hide{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 820px) and (min-width: 621px){
+    .m-hide{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1120px) and (min-width: 821px){
+    .m-hide{
+        display: none;
+    }
+}

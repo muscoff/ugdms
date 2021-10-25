@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="script-src 'self'"> -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/uicons/css/uicons-regular-rounded.css">
+    <link rel="stylesheet" href="../css/css/all.css">
+    <title>Document Management System</title>
+  </head>
+  <body class="ug-bg">
+    <div class="flex-column justify-content-center align-items-center width-100 height-100">
+        <div>
+            <div class="font-gotham uppercase font-1-5-em white-text center-text"><i class="fas fa-city office-icon"></i> <span id="display-name">Create Office</span></div><br>
+            <form>
+                <div class="width-90 margin-auto">
+                    <input type="hidden" id="path">
+                    <input type="hidden" id="parent">
+                    <label for="" class="white-text font-gotham office-title" id="office-title">Office Name</label>
+                    <input type="text" placeholder="Type name here.." required /><br>
+                    <div id="error" class="font-gotham white-text font-12"></div><br><br>
+                    <button class="blue-bg white-text"><i class="fas fa-city office-icon"></i> Create</button>
+                </div>
+            </form>
+        </div>
+    </div>
+  </body>
+</html>

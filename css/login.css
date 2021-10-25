@@ -1,0 +1,1558 @@
+button.adminBtn{
+    width: 100%;
+    padding: 1.25em 0.9375em;
+    font-family: "Gotham";
+    background-color: rgb(228, 165, 93);
+    color: #fff;
+}
+
+button.userBtn{
+    width: 100%;
+    padding: 1.25em 0.9375em;
+    font-family: "Gotham";
+    background-color: rgb(23, 73, 114);
+    color: #fff;
+}
+
+.is-visible{
+    visibility: visible;
+}
+
+.is-not-visible{
+    visibility: hidden;
+}
+
+.search-item{
+    padding: 0.7em;
+    background-color: #fff;
+}
+
+.padding-right-1{
+    padding-right: 1em;
+}
+
+img.logo{
+    max-width: 30%;
+}
+
+img.small-logo{
+    max-width: 20%;
+}
+
+img.smaller-logo{
+    max-width: 10%;
+}
+
+.max-img img{
+    max-width: 100%;
+}
+
+.doc-folder{
+    max-height: 85%;
+    overflow-y: auto;
+}
+
+.add-f{
+    display: none;
+}
+
+.add-f.show{
+    display: block;
+}
+
+.documents, .box{
+    max-height: 0;
+    overflow: hidden;
+}
+
+.documents.open, .box.open{
+    max-height: 75em;
+    overflow: auto;
+}
+
+.max-height-60{
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+.max-height-70{
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+.max-height-80{
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.margin-top-5{
+    margin-top: 0.3125em;
+}
+
+.margin-left-5{
+    margin-left: 0.3125em;
+}
+
+.margin-left-10{
+    margin-left: 0.625em;
+}
+
+.font-1-5-em{
+    font-size: 1.5em;
+}
+
+.ug-color{
+    color: rgb(2, 43, 77);
+}
+
+.ug-bg{
+    background-color: rgb(2, 43, 77);
+}
+
+.color-bg{
+    background-color: rgb(23, 73, 114);
+    color: #fff;
+}
+
+.acc-btn-holder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.acc-btn-holder1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+form.userAccountForm input[type=text], form.userAccountForm input[type=number], form.userAccountForm input[type=email], form.userAccountForm input[type=password]{
+    width: 100%;
+    padding: 1.25em 0.9375em;
+    border: 0.1875em solid rgb(228, 228, 228);
+    background-color: rgb(240, 240, 240);
+    font-family: "Gothic";
+    color: rgb(156, 154, 154);
+    border-radius: 0.3125em;
+}
+
+form.userAccountForm input[type=text]:focus, form.userAccountForm input[type=number]:focus, form.userAccountForm input[type=email]:focus, form.userAccountForm input[type=password]:focus{
+    background-color: rgb(240, 240, 240);
+    border: 0.1875em solid #fff;
+    color: black;
+    box-shadow: 0px 0px 10px lightblue;
+}
+
+button.dashBtn{
+    width: 100%;
+    padding: 1.25em 0.9375em;
+    font-family: "Gotham";
+    background-color: rgb(228, 165, 93);
+    color: #fff;
+}
+
+button.dashBtn:hover{
+    background-color: #fff;
+    color: rgb(228, 165, 93);
+    border: 0.0625em solid rgb(228, 165, 93);
+}
+
+.app-bg{
+    background-color: #202020;
+}
+
+input[type=search], input[type=date]{
+    width: 100%;
+    padding: 0.625em 0.9375em;
+    border: 1px solid #ccc;
+}
+
+.justify-content-space-between{
+    justify-content: space-between;
+}
+
+.margin-bottom-3{
+    margin-bottom: 0.1875em;
+}
+
+.margin-right-3{
+    margin-right: 0.1875em;
+}
+
+.small-btn{
+    padding: 0.3125em 0.5em;
+}
+
+.cart-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.3125em;
+    background-color: #fff;
+    border-radius: 0.3125em;
+    padding: 0.1875em;
+}
+
+.trailing{
+    /* white-space: pre; */
+    white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.truncate {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.table-class{
+    margin: 0em;
+    padding: 0em;
+}
+
+tr.border{
+    border: 0.0625em solid black;
+}
+
+.body{
+    padding: 0em;
+    margin: 0em;
+}
+
+.font-11{
+    font-size: 0.6875em;
+}
+
+.font-10{
+    font-size: 0.625em;
+}
+
+.font-9{
+    font-size: 0.5625em;
+}
+
+.font-8{
+    font-size: 0.5em;
+}
+
+.font-7{
+    font-size: 0.4375em;
+}
+
+.button-action{
+    padding: 0.625em 0.1875em;
+    font-family: "Gotham";
+    border-radius: 0.125em;
+    text-align: center;
+    background-color: darkslategrey;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 0.3125em;
+    transition: all 80ms ease-in-out;
+}
+
+.button-action:hover{
+    background-color: rgb(5, 99, 131);
+}
+
+.button-action:active{
+    transform: scale(0.95);
+}
+
+.button-action .item-title{
+    font-size: 0.8em;
+    margin-bottom: 0.1875em;
+}
+
+.button-action .item-price{
+    font-size: 0.7em;
+}
+
+.nocopy-color{
+    color: rgb(228, 165, 93);
+}
+
+.select{
+    border: 0.5px solid #ccc;
+    border-radius: 0.1875em;
+    padding: 0.9375em 0.625em;
+    cursor: pointer;
+}
+
+.option{
+    font-family: "Gotham";
+    padding: 0.625em 1.25em;
+    color: #fff;
+    cursor: pointer;
+}
+
+.option.green-text{
+    color: #23a201;
+}
+
+.option:hover{
+    background-color: rgb(228, 165, 93);
+}
+
+.option-body{
+    overflow: auto;
+    max-height: 15.625em;
+    background-color: black;
+    transition: all 0.1s ease-in-out;
+}
+.option-body.close{
+    overflow: hidden;
+    max-height: 0;
+}
+
+
+/* Multiply font by 1.2 */
+@media screen and (max-width: 1366px) and (min-width: 1221px) and (max-height: 768px){
+    button.adminBtn{
+        padding: 1.5em 1.125em;
+    }
+    
+    button.userBtn{
+        padding: 1.5em 1.125em;
+    }
+    
+    .search-item{
+        padding: 0.84em;
+    }
+    
+    .padding-right-1{
+        padding-right: 1.2em;
+    }
+    
+    .documents.open, .box.open{
+        max-height: 90em;
+    }
+    
+    .margin-top-5{
+        margin-top: 0.375em;
+    }
+    
+    .margin-left-5{
+        margin-left: 0.375em;
+    }
+    
+    .margin-left-10{
+        margin-left: 0.75em;
+    }
+    
+    .font-1-5-em{
+        font-size: 1.8em;
+    }
+    
+    form.userAccountForm input[type=text], form.userAccountForm input[type=number], form.userAccountForm input[type=email], form.userAccountForm input[type=password]{
+        padding: 1.5em 1.125em;
+        border: 0.225em solid rgb(228, 228, 228);
+        border-radius: 0.375em;
+    }
+    
+    form.userAccountForm input[type=text]:focus, form.userAccountForm input[type=number]:focus, form.userAccountForm input[type=email]:focus, form.userAccountForm input[type=password]:focus{
+        border: 0.225em solid #fff;
+        box-shadow: 0em 0em 0.75em lightblue;
+    }
+    
+    button.dashBtn{
+        padding: 1.5em 1.125em;
+    }
+    
+    button.dashBtn:hover{
+        border: 0.075em solid rgb(228, 165, 93);
+    }
+    
+    input[type=search], input[type=date]{
+        padding: 0.75em 1.125em;
+        border: 0.075em solid #ccc;
+    }
+    
+    .margin-bottom-3{
+        margin-bottom: 0.225em;
+    }
+    
+    .margin-right-3{
+        margin-right: 0.225em;
+    }
+    
+    .small-btn{
+        padding: 0.375em 0.6em;
+    }
+    
+    .cart-items{
+        margin-bottom: 0.375em;
+        border-radius: 0.375em;
+        padding: 0.225em;
+    }
+    
+    tr.border{
+        border: 0.075em solid black;
+    }
+    
+    .font-11{
+        font-size: 0.825em;
+    }
+    
+    .font-10{
+        font-size: 0.75em;
+    }
+    
+    .font-9{
+        font-size: 0.675em;
+    }
+    
+    .font-8{
+        font-size: 0.6em;
+    }
+    
+    .font-7{
+        font-size: 0.525em;
+    }
+    
+    .button-action{
+        padding: 0.75em 0.225em;
+        border-radius: 0.125em;
+        margin-bottom: 0.3125em;
+    }
+    
+    .button-action .item-title{
+        font-size: 0.96em;
+        margin-bottom: 0.225em;
+    }
+    
+    .button-action .item-price{
+        font-size: 0.84em;
+    }
+    
+    .select{
+        border: 0.0375em solid #ccc;
+        border-radius: 0.1875em;
+        padding: 1.125em 0.75em;
+    }
+    
+    .option{
+        font-family: "Gotham";
+        padding: 0.75em 1.5em;
+        color: #fff;
+        cursor: pointer;
+    }
+    
+    .option-body{
+        overflow: auto;
+        max-height: 18.75em;
+        background-color: black;
+        transition: all 0.1s ease-in-out;
+    }
+}
+
+
+/* Multiply font by 1.25*/
+@media screen and (max-width: 1643px) and (min-width: 1367px) and (max-height: 924px){
+    button.adminBtn{
+        padding: 1.5625em 1.171875em;
+    }
+    
+    button.userBtn{
+        padding: 1.5625em 1.171875em;
+    }
+    
+    .search-item{
+        padding: 0.875em;
+    }
+    
+    .padding-right-1{
+        padding-right: 1.25em;
+    }
+    
+    .documents.open, .box.open{
+        max-height: 93.75em;
+    }
+    
+    .margin-top-5{
+        margin-top: 0.390625em;
+    }
+    
+    .margin-left-5{
+        margin-left: 0.390625em;
+    }
+    
+    .margin-left-10{
+        margin-left: 0.78125em;
+    }
+    
+    .font-1-5-em{
+        font-size: 1.875em;
+    }
+    
+    form.userAccountForm input[type=text], form.userAccountForm input[type=number], form.userAccountForm input[type=email], form.userAccountForm input[type=password]{
+        padding: 1.5625em 1.171875em;
+        border: 0.234375em solid rgb(228, 228, 228);
+        border-radius: 0.390625em;
+    }
+    
+    form.userAccountForm input[type=text]:focus, form.userAccountForm input[type=number]:focus, form.userAccountForm input[type=email]:focus, form.userAccountForm input[type=password]:focus{
+        border: 0.234375em solid #fff;
+        box-shadow: 0em 0em 0.78125em lightblue;
+    }
+    
+    button.dashBtn{
+        padding: 1.5625em 1.171875em;
+    }
+    
+    button.dashBtn:hover{
+        border: 0.078125em solid rgb(228, 165, 93);
+    }
+    
+    input[type=search], input[type=date]{
+        padding: 0.78125em 1.171875em;
+        border: 0.78125em solid #ccc;
+    }
+    
+    .margin-bottom-3{
+        margin-bottom: 0.234375em;
+    }
+    
+    .margin-right-3{
+        margin-right: 0.234375em;
+    }
+    
+    .small-btn{
+        padding: 0.390625em 0.625em;
+    }
+    
+    .cart-items{
+        margin-bottom: 0.390625em;
+        border-radius: 0.390625em;
+        padding: 0.234375em;
+    }
+    
+    tr.border{
+        border: 0.078125em solid black;
+    }
+    
+    .font-11{
+        font-size: 0.859375em;
+    }
+    
+    .font-10{
+        font-size: 0.78125em;
+    }
+    
+    .font-9{
+        font-size: 0.703125em;
+    }
+    
+    .font-8{
+        font-size: 0.625em;
+    }
+    
+    .font-7{
+        font-size: 0.546875em;
+    }
+    
+    .button-action{
+        padding: 0.75em 0.225em;
+        border-radius: 0.125em;
+        margin-bottom: 0.3125em;
+    }
+    
+    .button-action .item-title{
+        font-size: 1em;
+        margin-bottom: 0.234375em;
+    }
+    
+    .button-action .item-price{
+        font-size: 0.875em;
+    }
+    
+    .select{
+        border: 0.0390625em solid #ccc;
+        border-radius: 0.1953125em;
+        padding: 1.171875em 0.78125em;
+    }
+    
+    .option{
+        font-family: "Gotham";
+        padding: 0.78125em 1.5625em;
+        color: #fff;
+        cursor: pointer;
+    }
+    
+    .option-body{
+        overflow: auto;
+        max-height: 19.53125em;
+        background-color: black;
+        transition: all 0.1s ease-in-out;
+    }
+}
+
+/* Multiple font by 1.3*/
+@media screen and (max-width: 1920px) and (min-width: 1643px) and (max-height: 1080px){
+
+    button.adminBtn{
+        padding: 1.625em 1.21875em;
+    }
+    
+    button.userBtn{
+        padding: 1.625em 1.21875em;
+    }
+    
+    .search-item{
+        padding: 0.91em;
+        background-color: #fff;
+    }
+    
+    .padding-right-1{
+        padding-right: 1.3em;
+    }
+    
+    .documents.open, .box.open{
+        max-height: 97.5em;
+        overflow: auto;
+    }
+    
+    .margin-top-5{
+        margin-top: 0.40625em;
+    }
+    
+    .margin-left-5{
+        margin-left: 0.40625em;
+    }
+    
+    .margin-left-10{
+        margin-left: 0.8125em;
+    }
+    
+    .font-1-5-em{
+        font-size: 1.95em;
+    }
+    
+    form.userAccountForm input[type=text], form.userAccountForm input[type=number], form.userAccountForm input[type=email], form.userAccountForm input[type=password]{
+        width: 100%;
+        padding: 1.625em 1.21875em;
+        border: 0.24375em solid rgb(228, 228, 228);
+        border-radius: 0.40625em;
+    }
+    
+    form.userAccountForm input[type=text]:focus, form.userAccountForm input[type=number]:focus, form.userAccountForm input[type=email]:focus, form.userAccountForm input[type=password]:focus{
+        background-color: rgb(240, 240, 240);
+        border: 0.24375em solid #fff;
+        box-shadow: 0em 0em 0.8125em lightblue;
+    }
+    
+    button.dashBtn{
+        padding: 1.625em 1.21875em;
+    }
+    
+    button.dashBtn:hover{
+        border: 0.08125em solid rgb(228, 165, 93);
+    }
+    
+    input[type=search], input[type=date]{
+        width: 100%;
+        padding: 0.8125em 1.21875em;
+        border: 0.08125em solid #ccc;
+    }
+    
+    .margin-bottom-3{
+        margin-bottom: 0.24375em;
+    }
+    
+    .margin-right-3{
+        margin-right: 0.24375em;
+    }
+    
+    .small-btn{
+        padding: 0.40625em 0.65em;
+    }
+    
+    .cart-items{
+        margin-bottom: 0.40625em;
+        background-color: #fff;
+        border-radius: 0.40625em;
+        padding: 0.24375em;
+    }
+    
+    tr.border{
+        border: 0.08125em solid black;
+    }
+    
+    .font-11{
+        font-size: 0.89375em;
+    }
+    
+    .font-10{
+        font-size: 0.8125em;
+    }
+    
+    .font-9{
+        font-size: 0.73125em;
+    }
+    
+    .font-8{
+        font-size: 0.65em;
+    }
+    
+    .font-7{
+        font-size: 0.56875em;
+    }
+    
+    .button-action{
+        padding: 0.8125em 0.24375em;
+        border-radius: 0.1625em;
+        margin-bottom: 0.40625em;
+    }
+    
+    
+    .button-action .item-title{
+        font-size: 1.04em;
+        margin-bottom: 0.24375em;
+    }
+    
+    .button-action .item-price{
+        font-size: 0.91em;
+    }
+    
+    .select{
+        border: 0.40625em solid #ccc;
+        border-radius: 0.316875em;
+        padding: 1.21875em 0.8125em;
+        cursor: pointer;
+    }
+    
+    .option{
+        padding: 0.8125em 1.625em;
+    }
+    
+    .option-body{
+        overflow: auto;
+        max-height: 20.3125em;
+        background-color: black;
+        transition: all 0.1s ease-in-out;
+    }
+    
+
+}
+
+/* Multiple font by 1.35 */
+@media screen and (max-width: 2048px) and (min-width: 1920px){
+
+    button.adminBtn{
+        padding: 1.6875em 1.265625em;
+    }
+    
+    button.userBtn{
+        padding: 1.6875em 1.265625em;
+    }
+    
+    .search-item{
+        padding: 0.945em;
+    }
+    
+    .padding-right-1{
+        padding-right: 1.35em;
+    }
+    
+    .documents.open, .box.open{
+        max-height: 101.25em;
+        overflow: auto;
+    }
+    
+    .margin-top-5{
+        margin-top: 0.421875em;
+    }
+    
+    .margin-left-5{
+        margin-left: 0.421875em;
+    }
+    
+    .margin-left-10{
+        margin-left: 0.84375em;
+    }
+    
+    .font-1-5-em{
+        font-size: 2.025em;
+    }
+    
+    form.userAccountForm input[type=text], form.userAccountForm input[type=number], form.userAccountForm input[type=email], form.userAccountForm input[type=password]{
+        width: 100%;
+        padding: 1.6875em 1.265625em;
+        border: 0.253125em solid rgb(228, 228, 228);
+        border-radius: 0.421875em;
+    }
+    
+    form.userAccountForm input[type=text]:focus, form.userAccountForm input[type=number]:focus, form.userAccountForm input[type=email]:focus, form.userAccountForm input[type=password]:focus{
+        background-color: rgb(240, 240, 240);
+        border: 0.253125em solid #fff;
+        color: black;
+        box-shadow: 0px 0px 0.84375em lightblue;
+    }
+    
+    button.dashBtn{
+        padding: 1.6875em 1.265625em;
+    }
+    
+    button.dashBtn:hover{
+        border: 0.084375em solid rgb(228, 165, 93);
+    }
+    
+    input[type=search], input[type=date]{
+        padding: 0.84375em 1.265625em;
+        border: 0.084375em solid #ccc;
+    }
+    
+    .margin-bottom-3{
+        margin-bottom: 0.253125em;
+    }
+    
+    .margin-right-3{
+        margin-right: 0.253125em;
+    }
+    
+    .small-btn{
+        padding: 0.421875em 0.5em;
+    }
+    
+    .cart-items{
+        margin-bottom: 0.421875em;
+        border-radius: 0.421875em;
+        padding: 0.253125em;
+    }
+    
+    tr.border{
+        border: 0.084375em solid black;
+    }
+    
+    .font-11{
+        font-size: 0.928125em;
+    }
+    
+    .font-10{
+        font-size: 0.84375em;
+    }
+    
+    .font-9{
+        font-size: 0.759375em;
+    }
+    
+    .font-8{
+        font-size: 0.675em;
+    }
+    
+    .font-7{
+        font-size: 0.590625em;
+    }
+    
+    .button-action{
+        padding: 0.84375em 0.253125em;
+        border-radius: 0.16875em;
+        margin-bottom: 0.421875em;
+    }
+    
+    .button-action .item-title{
+        font-size: 1.08em;
+        margin-bottom: 0.253125em;
+    }
+    
+    .button-action .item-price{
+        font-size: 0.945em;
+    }
+    
+    .select{
+        border: 0.0421875em solid #ccc;
+        border-radius: 0.253125em;
+        padding: 1.265625em 0.84375em;
+    }
+    
+    .option{
+        padding: 0.84375em 1.6875em;
+    }
+    
+    .option-body{
+        max-height: 21.09375em;
+    }
+}
+
+/* Multiple font by 1.4 */
+@media screen and (max-width: 2176px) and (min-width: 2048px){
+    button.adminBtn{
+        padding: 1.75em 1.3125em;
+    }
+    
+    button.userBtn{
+        padding: 1.75em 1.3125em;
+    }
+    
+    .search-item{
+        padding: 0.98em;
+    }
+    
+    .padding-right-1{
+        padding-right: 1.4em;
+    }
+    
+    .documents.open, .box.open{
+        max-height: 105em;
+        overflow: auto;
+    }
+    
+    .margin-top-5{
+        margin-top: 0.4375em;
+    }
+    
+    .margin-left-5{
+        margin-left: 0.4375em;
+    }
+    
+    .margin-left-10{
+        margin-left: 0.875em;
+    }
+    
+    .font-1-5-em{
+        font-size: 2.1em;
+    }
+    
+    form.userAccountForm input[type=text], form.userAccountForm input[type=number], form.userAccountForm input[type=email], form.userAccountForm input[type=password]{
+        padding: 1.75em 1.3125em;
+        border: 0.2625em solid rgb(228, 228, 228);
+        border-radius: 0.4375em;
+    }
+    
+    form.userAccountForm input[type=text]:focus, form.userAccountForm input[type=number]:focus, form.userAccountForm input[type=email]:focus, form.userAccountForm input[type=password]:focus{
+        border: 0.2625em solid #fff;
+        box-shadow: 0em 0em 0.875em lightblue;
+    }
+    
+    button.dashBtn{
+        padding: 2.45em 1.8375em;
+    }
+    
+    button.dashBtn:hover{
+        border: 0.0875em solid rgb(228, 165, 93);
+    }
+    
+    input[type=search], input[type=date]{
+        padding: 0.875em 1.3125em;
+        border: 0.0875em solid #ccc;
+    }
+    
+    .margin-bottom-3{
+        margin-bottom: 0.2625em;
+    }
+    
+    .margin-right-3{
+        margin-right: 0.2625em;
+    }
+    
+    .small-btn{
+        padding: 0.4375em 0.7em;
+    }
+    
+    .cart-items{
+        margin-bottom: 0.4375em;
+        border-radius: 0.4375em;
+        padding: 0.2625em;
+    }
+    
+    tr.border{
+        border: 0.0875em solid black;
+    }
+    
+    .font-11{
+        font-size: 0.9625em;
+    }
+    
+    .font-10{
+        font-size: 0.875em;
+    }
+    
+    .font-9{
+        font-size: 0.7875em;
+    }
+    
+    .font-8{
+        font-size: 0.7em;
+    }
+    
+    .font-7{
+        font-size: 0.6125em;
+    }
+    
+    .button-action{
+        padding: 0.875em 0.2625em;
+        border-radius: 0.175em;
+        margin-bottom: 0.4375em;
+    }
+    
+    .button-action .item-title{
+        font-size: 1.12em;
+        margin-bottom: 0.2625em;
+    }
+    
+    .button-action .item-price{
+        font-size: 0.98em;
+    }
+    
+    .select{
+        border: 0.04375em solid #ccc;
+        border-radius: 0.2625em;
+        padding: 1.3125em 0.875em;
+    }
+    
+    .option{
+        padding: 0.875em 1.75em;
+    }
+    
+    .option-body{
+        max-height: 21.875em;
+    }
+}
+
+/* Multiple font by 1.45 */
+@media screen and (max-width: 2304px) and (min-width: 2176px){
+    button.adminBtn{
+        padding: 1.8125em 1.359375em;
+    }
+    
+    button.userBtn{
+        padding: 1.8125em 1.359375em;
+    }
+    
+    .search-item{
+        padding: 1.015em;
+    }
+    
+    .padding-right-1{
+        padding-right: 1.45em;
+    }
+    
+    .documents.open, .box.open{
+        max-height: 108.75em;
+    }
+    
+    .margin-top-5{
+        margin-top: 0.453125em;
+    }
+    
+    .margin-left-5{
+        margin-left: 0.453125em;
+    }
+    
+    .margin-left-10{
+        margin-left: 0.90625em;
+    }
+    
+    .font-1-5-em{
+        font-size: 2.175em;
+    }
+
+    form.userAccountForm input[type=text], form.userAccountForm input[type=number], form.userAccountForm input[type=email], form.userAccountForm input[type=password]{
+        padding: 1.8125em 1.359375em;
+        border: 0.271875em solid rgb(228, 228, 228);
+        border-radius: 0.453125em;
+    }
+    
+    form.userAccountForm input[type=text]:focus, form.userAccountForm input[type=number]:focus, form.userAccountForm input[type=email]:focus, form.userAccountForm input[type=password]:focus{
+        border: 0.271875em solid #fff;
+        box-shadow: 0em 0em 0.90625em lightblue;
+    }
+    
+    button.dashBtn{
+        padding: 1.8125em 1.359375em;
+    }
+    
+    button.dashBtn:hover{
+        border: 0.090625em solid rgb(228, 165, 93);
+    }
+    
+    input[type=search], input[type=date]{
+        padding: 0.90625em 1.359375em;
+        border: 0.090625em solid #ccc;
+    }
+    
+    .margin-bottom-3{
+        margin-bottom: 0.271875em;
+    }
+    
+    .margin-right-3{
+        margin-right: 0.271875em;
+    }
+    
+    .small-btn{
+        padding: 0.453125em 0.725em;
+    }
+    
+    .cart-items{
+        margin-bottom: 0.453125em;
+        border-radius: 0.453125em;
+        padding: 0.271875em;
+    }
+    
+    tr.border{
+        border: 0.090625em solid black;
+    }
+    
+    .font-11{
+        font-size: 0.996875em;
+    }
+    
+    .font-10{
+        font-size: 0.90625em;
+    }
+    
+    .font-9{
+        font-size: 0.815625em;
+    }
+    
+    .font-8{
+        font-size: 0.725em;
+    }
+    
+    .font-7{
+        font-size: 0.634375em;
+    }
+    
+    .button-action{
+        padding: 0.90625em 0.271875em;
+        border-radius: 0.18125em;
+        margin-bottom: 0.453125em;
+    }
+    
+    .button-action .item-title{
+        font-size: 1.16em;
+        margin-bottom: 0.271875em;
+    }
+    
+    .button-action .item-price{
+        font-size: 1.015em;
+    }
+    
+    .select{
+        border: 0.0453125em solid #ccc;
+        border-radius: 0.271875em;
+        padding: 1.359375em 0.90625em;
+    }
+    
+    .option{
+        padding: 0.90625em 1.8125em;
+    }
+    
+    .option-body{
+        max-height: 22.65625em;
+    }
+}
+
+/* Multiple font by 1.5 */
+@media screen and (max-width: 2432px) and (min-width: 2304px){
+    button.adminBtn{
+        padding: 1.875em 1.40625em;
+    }
+    
+    button.userBtn{
+        padding: 1.875em 1.40625em;
+    }
+    
+    .search-item{
+        padding: 1.05em;
+    }
+    
+    .padding-right-1{
+        padding-right: 1.5em;
+    }
+    
+    .documents.open, .box.open{
+        max-height: 112.5em;
+        overflow: auto;
+    }
+    
+    .margin-top-5{
+        margin-top: 0.46875em;
+    }
+    
+    .margin-left-5{
+        margin-left: 0.46875em;
+    }
+    
+    .margin-left-10{
+        margin-left: 0.9375em;
+    }
+    
+    .font-1-5-em{
+        font-size: 2.25em;
+    }
+    
+    form.userAccountForm input[type=text], form.userAccountForm input[type=number], form.userAccountForm input[type=email], form.userAccountForm input[type=password]{
+        padding: 1.875em 1.40625em;
+        border: 0.28125em solid rgb(228, 228, 228);
+        background-color: rgb(240, 240, 240);
+        border-radius: 0.46875em;
+    }
+    
+    form.userAccountForm input[type=text]:focus, form.userAccountForm input[type=number]:focus, form.userAccountForm input[type=email]:focus, form.userAccountForm input[type=password]:focus{
+        border: 0.28125em solid #fff;
+        box-shadow: 0em 0em 0.9375em lightblue;
+    }
+    
+    button.dashBtn{
+        padding: 1.875em 1.40625em;
+    }
+    
+    button.dashBtn:hover{
+        border: 0.09375em solid rgb(228, 165, 93);
+    }
+    
+    input[type=search], input[type=date]{
+        padding: 0.9375em 1.40625em;
+        border: 0.09375em solid #ccc;
+    }
+    
+    .margin-bottom-3{
+        margin-bottom: 0.28125em;
+    }
+    
+    .margin-right-3{
+        margin-right: 0.28125em;
+    }
+    
+    .small-btn{
+        padding: 0.46875em 0.75em;
+    }
+    
+    .cart-items{
+        margin-bottom: 0.46875em;
+        border-radius: 0.46875em;
+        padding: 0.28125em;
+    }
+    
+    tr.border{
+        border: 0.09375em solid black;
+    }
+    
+    .font-11{
+        font-size: 1.03125em;
+    }
+    
+    .font-10{
+        font-size: 0.9375em;
+    }
+    
+    .font-9{
+        font-size: 0.84375em;
+    }
+    
+    .font-8{
+        font-size: 0.75em;
+    }
+    
+    .font-7{
+        font-size: 0.65625em;
+    }
+    
+    .button-action{
+        padding: 0.9375em 0.28125em;
+        border-radius: 0.1875em;
+        margin-bottom: 0.46875em;
+    }
+    
+    .button-action .item-title{
+        font-size: 1.2em;
+        margin-bottom: 0.28125em;
+    }
+    
+    .button-action .item-price{
+        font-size: 1.05em;
+    }
+    
+    .select{
+        border: 0.046875em solid #ccc;
+        border-radius: 0.28125em;
+        padding: 1.40625em 0.9375em;
+    }
+    
+    .option{
+        padding: 0.9375em 1.875em;
+    }
+    
+    .option-body{
+        max-height: 23.4375em;
+    }
+}
+
+/* Multiple font by 1.55 */
+@media screen and (max-width: 2560px) and (min-width: 2432px){
+    button.adminBtn{
+        padding: 1.9375em 1.453125em;
+    }
+    
+    button.userBtn{
+        padding: 1.9375em 1.453125em;
+    }
+    
+    .search-item{
+        padding: 1.085em;
+    }
+    
+    .padding-right-1{
+        padding-right: 1.55em;
+    }
+    
+    .documents.open, .box.open{
+        max-height: 116.25em;
+        overflow: auto;
+    }
+    
+    .margin-top-5{
+        margin-top: 0.484375em;
+    }
+    
+    .margin-left-5{
+        margin-left: 0.484375em;
+    }
+    
+    .margin-left-10{
+        margin-left: 0.96875em;
+    }
+    
+    .font-1-5-em{
+        font-size: 2.325em;
+    }
+    
+    form.userAccountForm input[type=text], form.userAccountForm input[type=number], form.userAccountForm input[type=email], form.userAccountForm input[type=password]{
+        padding: 1.9375em 1.453125em;
+        border: 0.290625em solid rgb(228, 228, 228);
+        border-radius: 0.484375em;
+    }
+    
+    form.userAccountForm input[type=text]:focus, form.userAccountForm input[type=number]:focus, form.userAccountForm input[type=email]:focus, form.userAccountForm input[type=password]:focus{
+        border: 0.290625em solid #fff;
+        box-shadow: 0px 0px 0.96875em lightblue;
+    }
+    
+    button.dashBtn{
+        padding: 1.9375em 1.453125em;
+    }
+    
+    button.dashBtn:hover{
+        border: 0.096875em solid rgb(228, 165, 93);
+    }
+    
+    input[type=search], input[type=date]{
+        padding: 0.96875em 1.453125em;
+        border: 0.096875em solid #ccc;
+    }
+    
+    .margin-bottom-3{
+        margin-bottom: 0.290625em;
+    }
+    
+    .margin-right-3{
+        margin-right: 0.290625em;
+    }
+    
+    .small-btn{
+        padding: 0.484375em 0.775em;
+    }
+    
+    .cart-items{
+        margin-bottom: 0.484375em;
+        border-radius: 0.484375em;
+        padding: 0.290625em;
+    }
+    
+    tr.border{
+        border: 0.096875em solid black;
+    }
+    
+    .font-11{
+        font-size: 1.065625em;
+    }
+    
+    .font-10{
+        font-size: 0.96875em;
+    }
+    
+    .font-9{
+        font-size: 0.871875em;
+    }
+    
+    .font-8{
+        font-size: 0.775em;
+    }
+    
+    .font-7{
+        font-size: 0.678125em;
+    }
+    
+    .button-action{
+        padding: 0.96875em 0.290625em;
+        border-radius: 0.19375em;
+        margin-bottom: 0.484375em;
+    }
+    
+    .button-action .item-title{
+        font-size: 1.24em;
+        margin-bottom: 0.290625em;
+    }
+    
+    .button-action .item-price{
+        font-size: 1.085em;
+    }
+    
+    .select{
+        border: 0.0484375em solid #ccc;
+        border-radius: 0.290625em;
+        padding: 1.453125em 0.96875em;
+    }
+    
+    .option{
+        padding: 0.96875em 1.9375em;
+    }
+    
+    .option-body{
+        max-height: 24.21875em;
+    }
+}
+
+/* Multiple font by 1.6 */
+@media screen and (min-width: 2560px){
+    button.adminBtn{
+        padding: 2em 1.5em;
+    }
+    
+    button.userBtn{
+        padding: 2em 1.5em;
+    }
+    
+    .search-item{
+        padding: 1.12em;
+    }
+    
+    .padding-right-1{
+        padding-right: 1.6em;
+    }
+    
+    .documents.open, .box.open{
+        max-height: 120em;
+    }
+    
+    .margin-top-5{
+        margin-top: 0.5em;
+    }
+    
+    .margin-left-5{
+        margin-left: 0.5em;
+    }
+    
+    .margin-left-10{
+        margin-left: 1em;
+    }
+    
+    .font-1-5-em{
+        font-size: 2.4em;
+    }
+    
+    form.userAccountForm input[type=text], form.userAccountForm input[type=number], form.userAccountForm input[type=email], form.userAccountForm input[type=password]{
+        width: 100%;
+        padding: 2em 1.5em;
+        border: 0.3em solid rgb(228, 228, 228);
+        border-radius: 0.5em;
+    }
+    
+    form.userAccountForm input[type=text]:focus, form.userAccountForm input[type=number]:focus, form.userAccountForm input[type=email]:focus, form.userAccountForm input[type=password]:focus{
+        background-color: rgb(240, 240, 240);
+        border: 0.3em solid #fff;
+        box-shadow: 0px 0px 1em lightblue;
+    }
+    
+    button.dashBtn{
+        padding: 2em 1.5em;
+    }
+    
+    button.dashBtn:hover{
+        background-color: #fff;
+        color: rgb(228, 165, 93);
+        border: 0.1em solid rgb(228, 165, 93);
+    }
+    
+    input[type=search], input[type=date]{
+        padding: 1em 1.5em;
+        border: 0.1em solid #ccc;
+    }
+    
+    .margin-bottom-3{
+        margin-bottom: 0.3em;
+    }
+    
+    .margin-right-3{
+        margin-right: 0.3em;
+    }
+    
+    .small-btn{
+        padding: 0.5em 0.8em;
+    }
+    
+    .cart-items{
+        margin-bottom: 0.5em;
+        border-radius: 0.5em;
+        padding: 0.3em;
+    }
+    
+    tr.border{
+        border: 0.1em solid black;
+    }
+    
+    .font-11{
+        font-size: 1.1em;
+    }
+    
+    .font-10{
+        font-size: 1em;
+    }
+    
+    .font-9{
+        font-size: 0.9em;
+    }
+    
+    .font-8{
+        font-size: 0.8em;
+    }
+    
+    .font-7{
+        font-size: 0.7em;
+    }
+    
+    .button-action{
+        padding: 1em 0.3em;
+        border-radius: 0.2em;
+        margin-bottom: 0.5em;
+    }
+    
+    .button-action .item-title{
+        font-size: 1.28em;
+        margin-bottom: 0.3em;
+    }
+    
+    .button-action .item-price{
+        font-size: 1.12em;
+    }
+    
+    .select{
+        border: 0.05em solid #ccc;
+        border-radius: 0.1875em;
+        padding: 1.5em 1em;
+    }
+    
+    .option{
+        padding: 1em 2em;
+    }
+    
+    .option-body{
+        max-height: 25em;
+    }
+}

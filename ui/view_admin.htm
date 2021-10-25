@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="script-src 'self'"> -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/uicons/css/uicons-regular-rounded.css">
+    <link rel="stylesheet" href="../css/css/all.css">
+    <title>Document Management System</title>
+  </head>
+  <body class="ug-bg">
+    <div class="width-100 min-height-30 flex-column justify-content-center white-bg">
+        <div class="padding-all-10"></div>
+        <div class="display-none">
+        <img src="../images/logo.png" class="small-logo" alt="">
+        </div>
+        <div class="left-text font-gotham bold-text ug-color uppercase font-30 padding-all-10">
+            document management system
+        </div>
+        <div class="right-text padding-all-10 ug-color font-l-12 font-gothic">
+            Welcome to your dashboard <br> <span id="fullname"></span>
+        </div>
+    </div>
+    <div>
+        <div class="padding-all-20"><i class="fi fi-rr-arrow-small-right white-text"></i> <span class="font-gothic yellow-text">Administrators List</span></div>
+        <div class="width-70 margin-auto">
+            <input type="search" placeholder="Search for a user by name or username" id="search">
+        </div>
+        <div class="padding-all-20"></div>
+        <div class="width-95 margin-auto padding-all-5 white-bg">
+            <table class="table bordered">
+                <thead>
+                    <tr class="font-gotham">
+                        <th>Fullname</th><th>Username</th><th colspan="6" class="center-text">Permissions</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div class="padding-all-20"></div>
+    </div>
+  </body>
+</html>
